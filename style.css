@@ -55,7 +55,6 @@ h2 {
 
 .opaque {
   opacity: 0.7;
-
 }
 
 #first ul li {
@@ -87,6 +86,13 @@ h2 {
   overflow: auto;
 }
 
+.text{
+  position:absolute;
+  border:2px solid red;
+  bottom:50px;
+  left:50px;
+}
+
 .middle-1 {
   height: 70vh;
   width: 80vw;
@@ -96,6 +102,7 @@ h2 {
   justify-content: center;
   margin: 8em;
   margin-top: 5%;
+  position:relative;
 
   /* border: 1px solid red; */
 }
@@ -154,6 +161,18 @@ h2 {
   width: 25vw;
 }
 
+#one:hover,
+#two:hover,
+#three:hover,
+#four:hover,
+#five:hover,
+#six:hover,
+#seven:hover,
+#eight:hover,
+#nine:hover
+ {
+  transform: scale(1.1);
+}
 
 .banner-2 img {
   width: 97vw;
@@ -179,7 +198,6 @@ h2 {
   width: 35vw;
 }
 
-
 footer {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -188,27 +206,27 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-	.logo {
-	margin: 30px 0;
-	width: 100px;
-	}
+  .logo {
+    margin: 30px 0;
+    width: 100px;
+  }
 
-	.bg-mobile {
-		display: block;
-		margin-left: -40px;
-		margin-right: -40px;
-		width: calc(100% + 80px);
-	}
+  .bg-mobile {
+    display: block;
+    margin-left: -40px;
+    margin-right: -40px;
+    width: calc(100% + 80px);
+  }
 
-	h1 {
-		font-size: 40px;
-	}
+  h1 {
+    font-size: 40px;
+  }
 
-	.left {
-		width: 100%
-	}
+  .left {
+    width: 100%;
+  }
 
-	.right {
-		display: none;
-	}
+  .right {
+    display: none;
+  }
 }
