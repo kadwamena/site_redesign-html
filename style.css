@@ -1,7 +1,7 @@
 body {
   margin: 0;
   width: 97vw;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 }
 
 .top {
@@ -11,7 +11,7 @@ body {
 .banner-1 {
   height: 70vh;
   width: 97vw;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .banner-1 img {
@@ -23,17 +23,18 @@ body {
 h2 {
   text-align: center;
   text-decoration: underline;
-  font-size: 2.0em;
+  font-size: 2em;
   margin-top: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
 }
-
-
-
 
 #first > ul {
   float: right;
   margin-top: -15px;
   /* border: 1px solid red; */
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
 }
 
 #first ul li {
@@ -45,9 +46,11 @@ h2 {
 
 #second > ul {
   align-items: center;
-  border: 1px solid red ;
+  /* border: 1px solid red; */
   width: 90%;
   /* margin-top: 50px; */
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
 }
 
 #second ul li {
@@ -57,6 +60,9 @@ h2 {
 
 #second ul img {
   max-width: 120px;
+}
+.middle {
+  overflow: auto;
 }
 
 .middle-1 {
@@ -68,6 +74,7 @@ h2 {
   justify-content: center;
   margin: 8em;
   margin-top: 5%;
+
   /* border: 1px solid red; */
 }
 
@@ -125,17 +132,10 @@ h2 {
   width: 25vw;
 }
 
-.banner-2 {
-  margin-bottom: 30%;
-}
 
 .banner-2 img {
   width: 97vw;
   height: 70vh;
-}
-
-.bottom-h2 {
-  margin-bottom: 10%;
 }
 
 .lower {
@@ -162,5 +162,6 @@ h2 {
   width: 25vw;
 }
 
+footer {
 
-
+}
