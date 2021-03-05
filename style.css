@@ -44,6 +44,20 @@ h2 {
   font-size: 12px;
 }
 
+#second {
+  /* border: 1px solid red; */
+  font-weight: 500;
+  margin-right: 30px;
+  text-align: center;
+  width: 100%;
+  /* margin-bottom: 5px; */
+}
+
+.opaque {
+  opacity: 0.7;
+
+}
+
 #first ul li {
   display: inline;
   height: 20px;
@@ -52,7 +66,7 @@ h2 {
 }
 
 #second > ul {
-  align-items: center;
+  /* align-items: center; */
   /* border: 1px solid red; */
   width: 90%;
   /* margin-top: 50px; */
@@ -68,6 +82,7 @@ h2 {
 #second ul img {
   max-width: 120px;
 }
+
 .middle {
   overflow: auto;
 }
