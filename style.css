@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  width: 97vw;
+  border: 1px solid yellow;
+}
+
+.top {
+  margin: 0;
+}
+
+.banner-1 {
+  height: 70vh;
+  width: 97vw;
+  border: 1px solid green;
+}
+
+.banner-1 img {
+  width: 97vw;
+  height: 70vh;
+  overflow: auto;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 2.0em;
+  margin-top: 5%;
+}
+
+
+
+
+#first > ul {
+  float: right;
+  margin-top: -15px;
+  /* border: 1px solid red; */
+}
+
+#first ul li {
+  display: inline;
+  height: 20px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+#second > ul {
+  align-items: center;
+  border: 1px solid red ;
+  width: 90%;
+  /* margin-top: 50px; */
+}
+
+#second ul li {
+  display: inline;
+  padding: 12px;
+}
+
+#second ul img {
+  max-width: 120px;
+}
+
+.middle-1 {
+  height: 70vh;
+  width: 80vw;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: center;
+  margin: 8em;
+  margin-top: 5%;
+  /* border: 1px solid red; */
+}
+
+#one {
+  height: 50vh;
+  width: 50vw;
+}
+
+#two {
+  height: 50vh;
+  width: 25vw;
+}
+
+.middle-2 {
+  height: 70vh;
+  width: 80vw;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  margin: 8em;
+}
+
+#three {
+  height: 50vh;
+  width: 24vw;
+}
+
+#four {
+  height: 50vh;
+  width: 52vw;
+}
+
+.middle-3 {
+  height: 70vh;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  margin: 8em;
+}
+
+#five {
+  height: 50vh;
+  width: 24vw;
+}
+
+#six {
+  height: 50vh;
+  width: 24vw;
+}
+
+#seven {
+  height: 50vh;
+  width: 25vw;
+}
+
+.banner-2 {
+  margin-bottom: 30%;
+}
+
+.banner-2 img {
+  width: 97vw;
+  height: 70vh;
+}
+
+.bottom-h2 {
+  margin-bottom: 10%;
+}
+
+.lower {
+  height: 70vh;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  margin: 8em;
+}
+
+#eight {
+  height: 30vh;
+  width: 24vw;
+}
+
+#nine {
+  height: 30vh;
+  width: 24vw;
+}
+
+#para {
+  height: 30vh;
+  width: 25vw;
+}
+
+
+
