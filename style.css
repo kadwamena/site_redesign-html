@@ -86,14 +86,14 @@ h2 {
   overflow: auto;
 }
 
-.text{
-  position:absolute;
-  border:2px solid red;
-  bottom:50px;
-  left:50px;
+/* .text {
+  position: absolute;
+  border: 2px solid red;
+  bottom: 50px;
+  left: 50px;
   color: #fff;
   font-size: 1.2em;
-}
+} */
 
 .middle-1 {
   height: 70vh;
@@ -104,8 +104,8 @@ h2 {
   justify-content: center;
   margin: 8em;
   margin-top: 5%;
-  position:relative;
-
+  position: relative;
+  margin-bottom: 5%;
   /* border: 1px solid red; */
 }
 
@@ -127,6 +127,8 @@ h2 {
   grid-template-columns: 1fr 2fr;
   justify-content: center;
   margin: 8em;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #three {
@@ -140,12 +142,14 @@ h2 {
 }
 
 .middle-3 {
-  height: 70vh;
+  height: 50vh;
   width: 80vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   margin: 8em;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #five {
@@ -171,8 +175,7 @@ h2 {
 #six:hover,
 #seven:hover,
 #eight:hover,
-#nine:hover
- {
+#nine:hover {
   transform: scale(1.1);
 }
 
@@ -182,12 +185,14 @@ h2 {
 }
 
 .lower {
-  height: 70vh;
+  height: 50vh;
   width: 80vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   margin: 8em;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #eight {
@@ -231,4 +236,5 @@ footer {
   .right {
     display: none;
   }
+  
 }
